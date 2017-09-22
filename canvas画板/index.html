@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="icon/iconfont.css"/>
+	</head>
+	<script type="text/javascript" src="js/palette.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<body>
+		<main>
+			<div class="head">
+				<dl class="picture">
+					<dt>图像</dt>
+					<hr />
+					<dd class="pic">
+						<a href="" class="tuxiang save">保存图片</a>
+					</dd>
+					<dd class="pic">
+						<div class="tuxiang clear">清除画板</div>
+					</dd>
+					<dd class="pic">
+						<div class="tuxiang reserve">反向</div>
+					</dd>
+				</dl>
+				<dl class="tool">
+					<dt>工具</dt>
+					<hr />
+					<dd class="tool tool_line"><span class="iconfont icon-line"></span></dd>
+					<dd class="tool tool_pencil"><span class="iconfont icon-qianbi"></span></dd>
+					<!--<dd class="tool tool_fill"><span class="iconfont icon-tianchong"></span></dd>-->
+					<dd class="tool tool_eraser"><span class="iconfont icon-xiangpica-copy"></span></dd>
+					<!--<dd class="tool tool_big"><span class="iconfont icon-fangdajing"></span></dd>-->
+					<!--<dd class="tool tool_dat"><span class="iconfont icon-xiguan-"></span></dd>-->
+					<dd class="tool tool_text"><span class="">T</span></dd>
+					<!--<dd class="tool tool_cutting"><span class="">剪</span></dd>-->
+				</dl>
+				<dl class="shape">
+					<dt>形状</dt>
+					<hr />
+					<dd class="shape shape_circle"><span class="iconfont icon-yuan"></span></dd>
+					<dd class="shape shape_trigon"><span class="iconfont icon-sanjiaoxing"></span></dd>
+					<dd class="shape shape_square"><span class="iconfont icon-juxing"></span></dd>
+					<dd class="shape shape_polygon"><span class="iconfont icon-duobianxing"></span></dd>
+					<dd class="shape shape_polystar"><span class="iconfont icon-unie60d"></span></dd>
+					
+				</dl>
+				<dl>
+					<dt>填充  描边</dt>
+					<hr />
+					<dd class="stroke">
+						<span>描边:</span>
+						<div class="stroke_box"></div>
+						<input type="color" name="" id="" value="" style="width: 30px;"/>
+					</dd>
+					<dd class="fill">
+						<span>填充:</span>
+						<div class="fill_box"></div>
+						<input type="color" name="" id="" value="" style="width: 30px;"/>
+					</dd>
+				</dl>
+				
+			</div>
+			<div class="box">
+				<canvas width="1200" height="450">
+					浏览器版本过低！
+				</canvas>
+				<div class="eraser"></div>
+				<div class="clip"></div>
+				<div class="mask"></div>
+			</div>
+		</main>
+	</body>
+</html>
