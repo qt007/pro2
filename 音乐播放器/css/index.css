@@ -1,0 +1,188 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: sans-serif;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	background: url(../images/1.jpg) center/cover;
+}
+main{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+}
+.song{
+	font-weight: 400;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+.singer{
+	font-size: 14px;
+	margin-top: 2px;
+	color: #fff;
+}
+.list{
+	height: 460px;
+	color: #fff;
+	overflow: hidden;
+	font-size: 16px;
+	line-height: 30px;
+}
+.bottom{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -500px;
+	width: 1000px;
+	height: 100px;
+	/*background: cyan;*/
+	overflow: hidden;
+}
+.bottom>.left{
+	width: 200px;
+	height: 100%;
+	color: #fff;
+	padding-left: 15px;
+	box-sizing: border-box;
+	float: left;
+	overflow: hidden;
+}
+.bottom>.middle{
+	width: 600px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+.bottom>.right{
+	width: 200px;
+	height: 100%;
+	color: #fff;
+	text-align: left;
+	line-height: 110px;
+	float: left;
+}
+.left>div{
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	margin-top: 22px;
+	position: relative;
+	float: left;
+}
+.left>div>span.bofang{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.left>div>span.zanting{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+}
+.middle>.pic{
+	width: 100px;
+	height: 90px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+	overflow: hidden;
+}
+.middle>.pic>img{
+	width: 80px;
+}
+.middle>.info{
+	width: 500px;
+	height: 100%;
+	/*background: red;*/
+	float: left;
+}
+.middle>.info>.detail{
+	width: 100%;
+	height: 50px;
+	line-height: 75px;
+	/*background: pink;*/
+}
+.dsong{
+	font-size: 16px;
+	color: #fff;
+	padding-left: 5px;
+	float: left;
+}
+.time{
+	font-size: 14px;
+	color: #fff;
+	padding-right: 60px;
+	float: right;
+}
+.middle>.info>.progress{
+	width: 450px;
+	height: 10px;
+	border-radius: 5px;
+	background: #fff;
+	/*margin-left: 3px;*/
+	position: relative;
+}
+.progressBar{
+	width: 0;
+	height: 10px;
+	border-radius: 5px;
+	background: cyan;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.right>span{
+	float: left;
+}
+.yinliang{
+       width: 120px;
+       height: 30px;
+       float: left;
+       position: relative;
+       margin-top: 44px;
+       margin-left: 5px;
+	}
+
+	.yl1{
+		width: 100px;
+		height: 10px;
+       	border-radius: 10px;
+		margin-top: 3px;
+		margin-left: 10px;
+		background: #dfdfdf;
+	}
+
+	.yl2{
+		width: 16px;
+		height: 16px;
+		background: #ff6700;
+		border-radius: 50%;
+		position: absolute;
+		top: 0;
+		left: 15px;
+	}
+
+	.yl3{
+		width: 10px;
+		height: 10px;
+       	border-radius: 10px;
+		top: 3px;
+		position: absolute;
+		left: 10px;
+		background: #ff6700;
+	}
