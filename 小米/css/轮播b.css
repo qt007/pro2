@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.banner{
+	width: 100%;
+	height: 460px;
+	background: #fff;
+	margin-top: 20px;
+}
+main{
+	width: 1226px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.banner-pic{
+	width: 100%;
+	height: 100%;
+}
+.banner-pic li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 1s;
+	opacity: 0;
+}
+.banner-pic li:first-child{
+	z-index: 1;
+	opacity: 1;
+}
+.banner-pic li a{
+	width: 100%;
+	height: 100%;
+	font-size: 0;
+	display: block;
+}
+.banner-pic a img{
+	width: 100%;
+	height: 100%;
+}
+.banner-btn{
+	width: 120px;
+	height: 10px;
+	position: absolute;
+	bottom:30px;
+	right: 25px;
+	z-index: 2;
+}
+.banner-btn li{
+	width: 6px;
+	height: 6px;
+	background: rgba(0,0,0,0.4);
+	border: 2px solid rgba(255,255,255,0.3);
+	border-radius: 50%;
+	margin: 0 5px;
+	float: left;
+}
+.banner-btn li:first-child{
+	background: rgba(255,255,255,0.3);
+	border: 2px solid rgba(0,0,0,0.4);
+}
+.banner-btn li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.ban-forward{
+	width: 41px;
+	height: 69px;
+	background: rgba(0, 0, 0, 0);
+	color: #d0cfcb;
+	text-align: center;
+	line-height: 69px;
+	border-radius: 0px 4px 4px 0px;
+	position: absolute;
+	top: 195px;
+	left: 234px;
+	z-index: 999;
+	display: block;
+}
+.ban-forward:hover{
+	color: #ffffff;
+	background: rgba(0, 0, 0, 0.5);
+}
+.ban-go{
+	width: 41px;
+	height: 69px;
+	background: rgba(0, 0, 0, 0);
+	text-align: center;
+	line-height: 69px;
+	color: #d0cfcb;
+	border-radius: 4px 0px 0px 4px;
+	position: absolute;
+	top: 195px;
+	right: 0;
+	z-index: 999;
+	display: block;
+}
+.ban-go:hover{
+	color: #ffffff;
+	background: rgba(0, 0, 0, 0.5);
+}
+.aside{
+	width: 234px;
+	height: 420px;
+	padding: 20px 0;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.aside li{
+	width: 204px;
+	height: 42px;
+	padding-left: 30px;
+	font-size: 14px;
+	font-family: "黑体";
+	line-height: 42px;
+}
+.aside li a{
+	color: #fff;
+}
+.aside li a span{
+	margin-right: 20px;
+	float: right;
+}
+.aside>li:hover{
+	background: #ff6709;
+}
+.item{
+	width: 990px;
+	height: 458px;
+	background: #FFFFFF;
+	border: 1px solid #795DA3;
+	position: absolute;
+	top: 0;
+	left: 234px;
+	z-index: 9999;
+	overflow: hidden;
+}
+.none{
+	display: none;
+}
+.block{
+	display: block;
+}
